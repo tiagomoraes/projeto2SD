@@ -1,4 +1,4 @@
-module RegisterX(clk, func, in, out);
+module RegisterX(func, clk, in, out);
 
 input wire clk;
 input wire [1:0] func;

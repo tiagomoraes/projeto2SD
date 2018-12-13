@@ -4,8 +4,8 @@ input wire[2:0] count;
 output reg [2:0] out;
 output reg [3:0] val;
 
-parameter X = 2;
-parameter Y = 0;
+parameter X = 4;
+parameter Y = 6;
 
 always begin
 	case(count)

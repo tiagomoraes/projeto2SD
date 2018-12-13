@@ -1,0 +1,384 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+7
+3700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Counter
+# storage
+db|Projeto2SD.(1).cnf
+db|Projeto2SD.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+counter.v
+5380aa94df1f165cc3f16c5127a839a
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+END
+101
+PARAMETER_UNSIGNED_BIN
+DEF
+BEGIN
+000
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+Counter:comb_3
+}
+# macro_sequence
+
+# end
+# entity
+Controller
+# storage
+db|Projeto2SD.(3).cnf
+db|Projeto2SD.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+controller.v
+72c5a59ca6a2a7cda299515b0e1576c
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+CLEARXZ
+00
+PARAMETER_UNSIGNED_BIN
+DEF
+LOADXZ
+01
+PARAMETER_UNSIGNED_BIN
+DEF
+HOLDXZ
+10
+PARAMETER_UNSIGNED_BIN
+DEF
+CLEARY
+000
+PARAMETER_UNSIGNED_BIN
+DEF
+LOADY
+001
+PARAMETER_UNSIGNED_BIN
+DEF
+HOLDY
+010
+PARAMETER_UNSIGNED_BIN
+DEF
+SLY
+011
+PARAMETER_UNSIGNED_BIN
+DEF
+SRY
+100
+PARAMETER_UNSIGNED_BIN
+DEF
+ADDULA
+0
+PARAMETER_UNSIGNED_BIN
+DEF
+SUBULA
+1
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+Controller:controller
+}
+# macro_sequence
+
+# end
+# entity
+RegisterX
+# storage
+db|Projeto2SD.(4).cnf
+db|Projeto2SD.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+registerx.v
+d494578ea82ed6fdc669e638a3f75
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+CLEAR
+00
+PARAMETER_UNSIGNED_BIN
+DEF
+LOAD
+01
+PARAMETER_UNSIGNED_BIN
+DEF
+HOLD
+10
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+RegisterX:regX
+RegisterX:regZ
+}
+# macro_sequence
+
+# end
+# entity
+RegisterY
+# storage
+db|Projeto2SD.(5).cnf
+db|Projeto2SD.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+registery.v
+90bf991dd48644a3af3d8d90f6c440bc
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+CLEAR
+000
+PARAMETER_UNSIGNED_BIN
+DEF
+LOAD
+001
+PARAMETER_UNSIGNED_BIN
+DEF
+HOLD
+010
+PARAMETER_UNSIGNED_BIN
+DEF
+SL
+011
+PARAMETER_UNSIGNED_BIN
+DEF
+SR
+100
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+RegisterY:regY
+}
+# macro_sequence
+
+# end
+# entity
+ULA
+# storage
+db|Projeto2SD.(6).cnf
+db|Projeto2SD.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+ula.v
+a341b4ca4309f45ca2131c949195415
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+ADD
+0
+PARAMETER_UNSIGNED_BIN
+DEF
+SUB
+1
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+ULA:ula
+}
+# macro_sequence
+
+# end
+# entity
+CPU
+# storage
+db|Projeto2SD.(0).cnf
+db|Projeto2SD.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+cpu.v
+adb46d1b22e686ba8a21ffd32054ca
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Memory
+# storage
+db|Projeto2SD.(2).cnf
+db|Projeto2SD.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+memory.v
+5cc6f5e3eac961ad4752d6b94ecd4ca
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+X
+2
+PARAMETER_SIGNED_DEC
+DEF
+Y
+0
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+Memory:comb_4
+}
+# macro_sequence
+
+# end
+# complete
+
