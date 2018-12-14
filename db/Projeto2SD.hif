@@ -20,130 +20,6 @@ VHSM_ON
 -- Start VHDL Libraries --
 -- End VHDL Libraries --
 # entity
-Counter
-# storage
-db|Projeto2SD.(1).cnf
-db|Projeto2SD.(1).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-counter.v
-5380aa94df1f165cc3f16c5127a839a
-8
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# user_parameter {
-END
-101
-PARAMETER_UNSIGNED_BIN
-DEF
-BEGIN
-000
-PARAMETER_UNSIGNED_BIN
-DEF
-}
-# hierarchies {
-Counter:comb_3
-}
-# macro_sequence
-
-# end
-# entity
-Controller
-# storage
-db|Projeto2SD.(3).cnf
-db|Projeto2SD.(3).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-controller.v
-72c5a59ca6a2a7cda299515b0e1576c
-8
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# user_parameter {
-CLEARXZ
-00
-PARAMETER_UNSIGNED_BIN
-DEF
-LOADXZ
-01
-PARAMETER_UNSIGNED_BIN
-DEF
-HOLDXZ
-10
-PARAMETER_UNSIGNED_BIN
-DEF
-CLEARY
-000
-PARAMETER_UNSIGNED_BIN
-DEF
-LOADY
-001
-PARAMETER_UNSIGNED_BIN
-DEF
-HOLDY
-010
-PARAMETER_UNSIGNED_BIN
-DEF
-SLY
-011
-PARAMETER_UNSIGNED_BIN
-DEF
-SRY
-100
-PARAMETER_UNSIGNED_BIN
-DEF
-ADDULA
-0
-PARAMETER_UNSIGNED_BIN
-DEF
-SUBULA
-1
-PARAMETER_UNSIGNED_BIN
-DEF
-}
-# hierarchies {
-Controller:controller
-}
-# macro_sequence
-
-# end
-# entity
 RegisterX
 # storage
 db|Projeto2SD.(4).cnf
@@ -299,6 +175,84 @@ ULA:ula
 
 # end
 # entity
+Controller
+# storage
+db|Projeto2SD.(3).cnf
+db|Projeto2SD.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+controller.v
+858c5d9c7cb9797c0d69bb1aff3d591
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+CLEARXZ
+00
+PARAMETER_UNSIGNED_BIN
+DEF
+LOADXZ
+01
+PARAMETER_UNSIGNED_BIN
+DEF
+HOLDXZ
+10
+PARAMETER_UNSIGNED_BIN
+DEF
+CLEARY
+000
+PARAMETER_UNSIGNED_BIN
+DEF
+LOADY
+001
+PARAMETER_UNSIGNED_BIN
+DEF
+HOLDY
+010
+PARAMETER_UNSIGNED_BIN
+DEF
+SLY
+011
+PARAMETER_UNSIGNED_BIN
+DEF
+SRY
+100
+PARAMETER_UNSIGNED_BIN
+DEF
+ADDULA
+0
+PARAMETER_UNSIGNED_BIN
+DEF
+SUBULA
+1
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+Controller:controller
+}
+# macro_sequence
+
+# end
+# entity
 CPU
 # storage
 db|Projeto2SD.(0).cnf
@@ -310,7 +264,7 @@ ON
 # case_sensitive
 # source_file
 cpu.v
-adb46d1b22e686ba8a21ffd32054ca
+5324d6ad91c8ee47577914104ff2cc
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -346,7 +300,7 @@ ON
 # case_sensitive
 # source_file
 memory.v
-5cc6f5e3eac961ad4752d6b94ecd4ca
+2674924efcc7a651873b6bfea915bf1f
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -366,16 +320,62 @@ VERILOG_NON_CONSTANT_LOOP_LIMIT
 }
 # user_parameter {
 X
-2
+4
 PARAMETER_SIGNED_DEC
 DEF
 Y
-0
+4
 PARAMETER_SIGNED_DEC
 DEF
 }
 # hierarchies {
 Memory:comb_4
+}
+# macro_sequence
+
+# end
+# entity
+Counter
+# storage
+db|Projeto2SD.(1).cnf
+db|Projeto2SD.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+counter.v
+8fd722e94e4de201187a84726b4d34
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+END
+1111
+PARAMETER_UNSIGNED_BIN
+DEF
+BEGIN
+0000
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+Counter:comb_3
 }
 # macro_sequence
 

@@ -20,13 +20,13 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
+VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 0;
-		NUMERATOR = 0;
-		DENOMINATOR = 0;
+		ZBEGIN = 48602;
+		ZEND = 88147;
+		NUMERATOR = 1149;
+		DENOMINATOR = 38969;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -397,15 +397,31 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		VISIBLE = Y;
 		FLAG = N;
 	}
+	LINE{
+		SIGNAL = "outCounter[3]";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "funcOutMemory[3]";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
 }
 
-VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
+VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 39545;
-		NUMERATOR = 1149;
-		DENOMINATOR = 38969;
+		ZEND = 1000000;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{

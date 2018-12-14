@@ -5,7 +5,7 @@ Timing Analyzer Summary
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 12.535 ns
+Actual Time    : 11.614 ns
 From           : Controller:controller|tZ[0]
 To             : tZ[0]
 From Clock     : clk
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 69.92 MHz ( period = 14.302 ns )
+Actual Time    : 88.79 MHz ( period = 11.262 ns )
 From           : Controller:controller|tY[0]
-To             : RegisterY:regY|out[2]
+To             : RegisterY:regY|out[1]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
@@ -30,7 +30,7 @@ From           : Memory:comb_4|out[1]
 To             : Controller:controller|tX[1]
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 16
+Failed Paths   : 13
 
 Type           : Total number of failed paths
 Slack          : 
@@ -40,7 +40,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 16
+Failed Paths   : 13
 
 --------------------------------------------------------------------------------------
 

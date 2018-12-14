@@ -22,30 +22,40 @@ parameter SUBULA = 1'b1;
 always begin
 	case(func)
 		3'b000:
-			tX <= LOADXZ;
-			tY <= CLEARY;
-			tZ <= CLEARXZ;
-			tULA <= ADDULA;
+			begin
+				tX <= LOADXZ;
+				tY <= CLEARY;
+				tZ <= CLEARXZ;
+				tULA <= ADDULA;
+			end
 		3'b001:
-			tX <= LOADXZ;
-			tY <= LOADY;
-			tZ <= HOLDXZ;
-			tULA <= ADDULA;
+			begin
+				tX <= LOADXZ;
+				tY <= LOADY;
+				tZ <= HOLDXZ;
+				tULA <= ADDULA;
+			end
 		3'b010:
-			tX <= HOLDXZ;
-			tY <= LOADY;
-			tZ <= HOLDXZ;
-			tULA <= ADDULA;
+			begin
+				tX <= HOLDXZ;
+				tY <= LOADY;
+				tZ <= HOLDXZ;
+				tULA <= ADDULA;
+			end
 		3'b011:
-			tX <= HOLDXZ;
-			tY <= SRY;
-			tZ <= HOLDXZ;
-			tULA <= ADDULA;
+			begin
+				tX <= HOLDXZ;
+				tY <= SRY;
+				tZ <= HOLDXZ;
+				tULA <= ADDULA;
+			end
 		3'b100:
-			tX <= CLEARXZ;
-			tY <= CLEARY;
-			tZ <= LOADXZ;
-			tULA <= ADDULA;
+			begin
+				tX <= CLEARXZ;
+				tY <= CLEARY;
+				tZ <= LOADXZ;
+				tULA <= ADDULA;
+			end
 	endcase
 end
 

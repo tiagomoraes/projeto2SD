@@ -14,7 +14,7 @@ output wire [3:0] valMemory;
 output wire [2:0] funcOutMemory;
 
 Counter(clk, outCounter);
-Memory(outCounter, valMemory, funcOUtMemory);
+Memory(outCounter, valMemory, funcOutMemory);
 Controller controller(funcOutMemory, tX, tY, tZ, tULA);
 
 RegisterX regX(clk, tX, valMemory, outX);

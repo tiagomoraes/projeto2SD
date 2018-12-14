@@ -1,37 +1,37 @@
 module Memory(count, val, out);
 
-input wire[2:0] count;
-output reg [2:0] out;
+input wire[3:0] count;
+output reg [3:0] out;
 output reg [3:0] val;
 
-parameter X = 2;
-parameter Y = 0;
+parameter X = 4;
+parameter Y = 4;
 
 always begin
 	case(count)
-		3'b000: // load X, clear Y, clear Z, sum ULA
+		4'b0000: // load X, clear Y, clear Z, sum ULA
 			begin
-				out <= 3'b000;
+				out <= 4'b0000;
 				val <= X;
 			end
-		3'b001: // load X, load Y, hold Z, sum Ula
+		4'b0001: // load X, load Y, hold Z, sum Ula
 			begin
-				out <= 3'b001;
+				out <= 4'b0001;
 				val <= Y;
 			end
-		3'b010: // hold X, load Y, hold Z, dont care ULA
+		4'b0010: // hold X, load Y, hold Z, dont care ULA
 			begin
-				out <= 3'b010;
+				out <= 4'b0010;
 				val <= 0;
 			end
-		3'b011: // hold X, shift right Y, hold Z, dont care ULA
+		4'b0011: // hold X, shift right Y, hold Z, dont care ULA
 			begin
-				out <= 3'b011;
+				out <= 4'b0011;
 				val <= 0;
 			end
-		3'b100: // clear X, clear Y, load Z, dont care ULA
+		4'b0100: // clear X, clear Y, load Z, dont care ULA
 			begin
-				out <= 3'b100;
+				out <= 4'b0100;
 				val <= 0;
 			end
 	endcase

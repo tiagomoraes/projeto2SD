@@ -1,6 +1,6 @@
 module Controller(func, tX, tY, tZ, tULA);
 
-input wire [2:0] func;
+input wire [3:0] func;
 output reg [1:0] tX;
 output reg [2:0] tY;
 output reg [1:0] tZ;
@@ -21,35 +21,35 @@ parameter SUBULA = 1'b1;
 
 always begin
 	case(func)
-		3'b000:
+		4'b0000:
 			begin
 				tX <= LOADXZ;
 				tY <= CLEARY;
 				tZ <= CLEARXZ;
 				tULA <= ADDULA;
 			end
-		3'b001:
+		4'b0001:
 			begin
 				tX <= LOADXZ;
 				tY <= LOADY;
 				tZ <= HOLDXZ;
 				tULA <= ADDULA;
 			end
-		3'b010:
+		4'b0010:
 			begin
 				tX <= HOLDXZ;
 				tY <= LOADY;
 				tZ <= HOLDXZ;
 				tULA <= ADDULA;
 			end
-		3'b011:
+		4'b0011:
 			begin
 				tX <= HOLDXZ;
 				tY <= SRY;
 				tZ <= HOLDXZ;
 				tULA <= ADDULA;
 			end
-		3'b100:
+		4'b0100:
 			begin
 				tX <= CLEARXZ;
 				tY <= CLEARY;
