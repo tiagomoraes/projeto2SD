@@ -289,52 +289,6 @@ VERILOG_NON_CONSTANT_LOOP_LIMIT
 
 # end
 # entity
-Memory
-# storage
-db|Projeto2SD.(2).cnf
-db|Projeto2SD.(2).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-memory.v
-2674924efcc7a651873b6bfea915bf1f
-8
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# user_parameter {
-X
-4
-PARAMETER_SIGNED_DEC
-DEF
-Y
-4
-PARAMETER_SIGNED_DEC
-DEF
-}
-# hierarchies {
-Memory:comb_4
-}
-# macro_sequence
-
-# end
-# entity
 Counter
 # storage
 db|Projeto2SD.(1).cnf
@@ -376,6 +330,52 @@ DEF
 }
 # hierarchies {
 Counter:comb_3
+}
+# macro_sequence
+
+# end
+# entity
+Memory
+# storage
+db|Projeto2SD.(2).cnf
+db|Projeto2SD.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+memory.v
+72ae2834b01c9b93a1c57ae2117dab86
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+X
+3
+PARAMETER_SIGNED_DEC
+DEF
+Y
+5
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+Memory:comb_4
 }
 # macro_sequence
 
