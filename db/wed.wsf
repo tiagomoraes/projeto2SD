@@ -46,7 +46,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ";
+		SIGNAL = "valMemory";
 		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
@@ -54,7 +54,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[3]";
+		SIGNAL = "valMemory[3]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -62,7 +62,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[2]";
+		SIGNAL = "valMemory[2]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -70,7 +70,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[1]";
+		SIGNAL = "valMemory[1]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -78,7 +78,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[0]";
+		SIGNAL = "valMemory[0]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -86,7 +86,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory";
+		SIGNAL = "outZ";
 		INDEX = 6;
 		FORMAT = T;
 		SCALE = 1;
@@ -94,7 +94,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory[2]";
+		SIGNAL = "outZ[3]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -102,7 +102,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory[1]";
+		SIGNAL = "outZ[2]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -110,7 +110,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory[0]";
+		SIGNAL = "outZ[1]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -118,23 +118,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outCounter";
+		SIGNAL = "outZ[0]";
 		INDEX = 10;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "outCounter[2]";
-		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outCounter[1]";
+		SIGNAL = "funcOutMemory";
+		INDEX = 11;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "funcOutMemory[2]";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -142,7 +142,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outCounter[0]";
+		SIGNAL = "funcOutMemory[1]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -150,23 +150,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA";
+		SIGNAL = "funcOutMemory[0]";
 		INDEX = 14;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "outULA[3]";
-		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA[2]";
+		SIGNAL = "outCounter";
+		INDEX = 15;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outCounter[2]";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -174,7 +174,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA[1]";
+		SIGNAL = "outCounter[1]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -182,7 +182,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA[0]";
+		SIGNAL = "outCounter[0]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -190,7 +190,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX";
+		SIGNAL = "outULA";
 		INDEX = 19;
 		FORMAT = T;
 		SCALE = 1;
@@ -198,7 +198,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[3]";
+		SIGNAL = "outULA[3]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -206,7 +206,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[2]";
+		SIGNAL = "outULA[2]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -214,7 +214,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[1]";
+		SIGNAL = "outULA[1]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -222,7 +222,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[0]";
+		SIGNAL = "outULA[0]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -230,7 +230,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY";
+		SIGNAL = "outX";
 		INDEX = 24;
 		FORMAT = T;
 		SCALE = 1;
@@ -238,7 +238,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[3]";
+		SIGNAL = "outX[3]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -246,7 +246,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[2]";
+		SIGNAL = "outX[2]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -254,7 +254,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[1]";
+		SIGNAL = "outX[1]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -262,7 +262,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[0]";
+		SIGNAL = "outX[0]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -270,23 +270,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tULA";
+		SIGNAL = "outY";
 		INDEX = 29;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "tX";
-		INDEX = 30;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tX[1]";
+		SIGNAL = "outY[3]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outY[2]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -294,7 +294,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tX[0]";
+		SIGNAL = "outY[1]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -302,15 +302,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY";
+		SIGNAL = "outY[0]";
 		INDEX = 33;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY[2]";
+		SIGNAL = "tULA";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -318,15 +318,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY[1]";
+		SIGNAL = "tX";
 		INDEX = 35;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY[0]";
+		SIGNAL = "tX[1]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -334,23 +334,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tZ";
+		SIGNAL = "tX[0]";
 		INDEX = 37;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "tZ[1]";
-		INDEX = 38;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tZ[0]";
+		SIGNAL = "tY";
+		INDEX = 38;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tY[2]";
 		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
@@ -358,15 +358,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory";
+		SIGNAL = "tY[1]";
 		INDEX = 40;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[3]";
+		SIGNAL = "tY[0]";
 		INDEX = 41;
 		FORMAT = E;
 		SCALE = 1;
@@ -374,15 +374,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[2]";
+		SIGNAL = "tZ";
 		INDEX = 42;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[1]";
+		SIGNAL = "tZ[1]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -390,7 +390,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/db/Projeto2SD.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[0]";
+		SIGNAL = "tZ[0]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
@@ -441,7 +441,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ";
+		SIGNAL = "valMemory";
 		INDEX = 1;
 		FORMAT = T;
 		SCALE = 1;
@@ -449,7 +449,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[3]";
+		SIGNAL = "valMemory[3]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -457,7 +457,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[2]";
+		SIGNAL = "valMemory[2]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -465,7 +465,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[1]";
+		SIGNAL = "valMemory[1]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -473,7 +473,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outZ[0]";
+		SIGNAL = "valMemory[0]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -481,7 +481,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory";
+		SIGNAL = "outZ";
 		INDEX = 6;
 		FORMAT = T;
 		SCALE = 1;
@@ -489,7 +489,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory[2]";
+		SIGNAL = "outZ[3]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -497,7 +497,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory[1]";
+		SIGNAL = "outZ[2]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -505,7 +505,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "funcOutMemory[0]";
+		SIGNAL = "outZ[1]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -513,23 +513,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outCounter";
+		SIGNAL = "outZ[0]";
 		INDEX = 10;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "outCounter[2]";
-		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outCounter[1]";
+		SIGNAL = "funcOutMemory";
+		INDEX = 11;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "funcOutMemory[2]";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -537,7 +537,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outCounter[0]";
+		SIGNAL = "funcOutMemory[1]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -545,23 +545,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA";
+		SIGNAL = "funcOutMemory[0]";
 		INDEX = 14;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "outULA[3]";
-		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA[2]";
+		SIGNAL = "outCounter";
+		INDEX = 15;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outCounter[2]";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -569,7 +569,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA[1]";
+		SIGNAL = "outCounter[1]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -577,7 +577,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outULA[0]";
+		SIGNAL = "outCounter[0]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -585,7 +585,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX";
+		SIGNAL = "outULA";
 		INDEX = 19;
 		FORMAT = T;
 		SCALE = 1;
@@ -593,7 +593,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[3]";
+		SIGNAL = "outULA[3]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -601,7 +601,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[2]";
+		SIGNAL = "outULA[2]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -609,7 +609,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[1]";
+		SIGNAL = "outULA[1]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -617,7 +617,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outX[0]";
+		SIGNAL = "outULA[0]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -625,7 +625,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY";
+		SIGNAL = "outX";
 		INDEX = 24;
 		FORMAT = T;
 		SCALE = 1;
@@ -633,7 +633,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[3]";
+		SIGNAL = "outX[3]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -641,7 +641,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[2]";
+		SIGNAL = "outX[2]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -649,7 +649,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[1]";
+		SIGNAL = "outX[1]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -657,7 +657,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "outY[0]";
+		SIGNAL = "outX[0]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -665,23 +665,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tULA";
+		SIGNAL = "outY";
 		INDEX = 29;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "tX";
-		INDEX = 30;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tX[1]";
+		SIGNAL = "outY[3]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outY[2]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -689,7 +689,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tX[0]";
+		SIGNAL = "outY[1]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -697,15 +697,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY";
+		SIGNAL = "outY[0]";
 		INDEX = 33;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY[2]";
+		SIGNAL = "tULA";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -713,15 +713,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY[1]";
+		SIGNAL = "tX";
 		INDEX = 35;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tY[0]";
+		SIGNAL = "tX[1]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -729,23 +729,23 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tZ";
+		SIGNAL = "tX[0]";
 		INDEX = 37;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "tZ[1]";
-		INDEX = 38;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tZ[0]";
+		SIGNAL = "tY";
+		INDEX = 38;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tY[2]";
 		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
@@ -753,15 +753,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory";
+		SIGNAL = "tY[1]";
 		INDEX = 40;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[3]";
+		SIGNAL = "tY[0]";
 		INDEX = 41;
 		FORMAT = E;
 		SCALE = 1;
@@ -769,15 +769,15 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[2]";
+		SIGNAL = "tZ";
 		INDEX = 42;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[1]";
+		SIGNAL = "tZ[1]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -785,7 +785,7 @@ VECTOR("E:/UFPE/Sistemas Digitais - IF675/projeto2SD/Projeto2SDWF.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "valMemory[0]";
+		SIGNAL = "tZ[0]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
